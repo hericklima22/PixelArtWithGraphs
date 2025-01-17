@@ -10,7 +10,7 @@
 | 19/0054832  |  Arthur Talles de Sousa Cunha |
 
 ## Sobre 
-Este projeto tem por objetivo a criação de um jogo no qual o usuário seleciona um ponto da tela a partir do qual uma arte abstrata será gerada seguindo as opções por ele indicadas previamente (tipo de algoritmo de grafos usado para a geração da imagem, o grau de variação das cores, dimensão dos blocos de pixels e a seleção, aleatória ou não, de vizinhos). 
+O gerador de pixelart utiliza algoritmos de grafos (BFS e DFS) para criar lindos desenhos aleatórios na tela. 
 
 ## Screenshots
 <img
@@ -35,10 +35,7 @@ Este projeto tem por objetivo a criação de um jogo no qual o usuário selecion
 
 ## Instalação 
 **Linguagem**: Python<br>
-<!---
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
--->
+
 ## Uso 
 Para utilizá-lo é necessário:
 
@@ -61,10 +58,8 @@ Para utilizá-lo é necessário:
 3. Executar em sua máquina
    
     python3 main.py
-<!---
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
---->
 
+
+Para uma explicação mais detalhada: o código inicia com uma área quadrada de tamanho variável, onde cada pixel é um nó de um grafo. Ao clicar em qualquer nó, o código pega as coordenadas deste nó, e o algoritmo selecionado se inicia neste ponto com uma reação em cadeia de cores lindas e geradas proceduralmente, a partir da cor do nó visitado anteriormente. Como os algoritmos utilizam filas para selecionar vizinhos, nós podemos brincar com isso ao selecionar vizinhos aleatórios na fila, deixando a arte bem mais interessante, com poucos padrões aparentes.
 
 
