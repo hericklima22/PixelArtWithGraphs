@@ -45,16 +45,16 @@ Para utilizá-lo é necessário:
 1. Clonar o repositório
 
     SSL:
-    $ git clone git@github.com:projeto-de-algoritmos/Grafos1_pixelArtGenerator.git
+    $ git clone git@github.com:hericklima22/PixelArtWithGraphs.git
     
     HTTPS:
-    $ git clone git@github.com:hericklima22/PixelArtWithGraphs.git
+    $ git clone https://github.com/hericklima22/PixelArtWithGraphs.git
 
-2. Instalar o Python
+3. Instalar o Python
 
     $ sudo apt-get install python3
 
-3. Instalar a biblioteca pygame
+4. Instalar a biblioteca pygame
    
     pip install pygame
 
