@@ -48,7 +48,7 @@ Para utilizá-lo é necessário:
     $ git clone git@github.com:projeto-de-algoritmos/Grafos1_pixelArtGenerator.git
     
     HTTPS:
-    $ git clone https://github.com/projeto-de-algoritmos/Grafos1_pixelArtGenerator.git
+    $ git clone git@github.com:hericklima22/PixelArtWithGraphs.git
 
 2. Instalar o Python
 
